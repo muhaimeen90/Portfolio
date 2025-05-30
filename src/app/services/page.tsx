@@ -10,8 +10,6 @@ const services = [
     name: 'Bridal Henna',
     description: 'Intricate and elaborate henna designs for your special day. Our bridal packages include full hands and feet with traditional and modern patterns.',
     features: ['Full hands and feet coverage', 'Intricate bridal patterns', 'Long-lasting design', 'Bridal consultation included', 'Touch-up service', 'Premium henna quality'],
-    duration: '4-6 hours',
-    startingPrice: 150,
     image: '/images/bridalHenna.png'
   },
   {
@@ -19,8 +17,6 @@ const services = [
     name: 'Party Henna',
     description: 'Perfect for celebrations, festivals, and gatherings. Quick and beautiful designs that suit any occasion.',
     features: ['Quick application', 'Beautiful festive patterns', 'Group bookings available', 'Festival designs', 'Multiple people service'],
-    duration: '30-60 minutes per person',
-    startingPrice: 25,
     image: '/images/partyHenna.jpg'
   },
   {
@@ -28,8 +24,6 @@ const services = [
     name: 'Arabic Henna',
     description: 'Bold and beautiful Arabic-style henna with flowing patterns and modern touches.',
     features: ['Bold flowing patterns', 'Modern Arabic designs', 'Quick drying time', 'Elegant sophisticated look', 'Hand and arm coverage'],
-    duration: '1-2 hours',
-    startingPrice: 50,
     image: '/images/arabicHenna.jpg'
   },
   {
@@ -37,8 +31,6 @@ const services = [
     name: 'Kids Henna',
     description: 'Fun and safe henna designs for children. Simple patterns that kids will love.',
     features: ['Safe for children', 'Fun cartoon patterns', 'Quick application', 'Child-friendly designs', 'Simple and cute'],
-    duration: '15-30 minutes',
-    startingPrice: 15,
     image: '/images/kidHenna.png'
   }
 ]

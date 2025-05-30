@@ -11,8 +11,6 @@ interface Service {
   name: string;
   description: string;
   features: string[];
-  duration: string;
-  startingPrice: number;
   image: string;
 }
 
@@ -76,18 +74,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
 
       {/* Duration and Price */}
       <div className="border-t border-henna-light pt-6">
-        <div className="flex justify-between items-center mb-4">
-          <div>
-            <span className="text-sm text-henna-text/70">Duration</span>
-            <p className="font-medium text-henna-dark">{service.duration}</p>
-          </div>
-          <div className="text-right">
-            <span className="text-sm text-henna-text/70">Starting from</span>
-            <p className="text-2xl font-bold text-henna-accent">
-              ${service.startingPrice}
-            </p>
-          </div>
-        </div>
+      
         
         <Link href="/contact" className="btn-primary w-full group-hover:bg-henna-dark transition-colors duration-300 block text-center">
           Book This Service
