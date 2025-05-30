@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-henna-text bg-henna-light;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .page-transition {
+    @apply transition-all duration-500 ease-in-out;
+  }
+  
+  .btn-primary {
+    @apply bg-henna-primary hover:bg-henna-dark text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-henna-primary text-henna-primary hover:bg-henna-primary hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 transform hover:scale-105 hover:shadow-xl;
+  }
+  
+  .henna-gradient {
+    @apply bg-gradient-to-br from-henna-light via-henna-secondary to-henna-primary;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-henna-dark to-henna-primary bg-clip-text text-transparent;
+  }
+}
