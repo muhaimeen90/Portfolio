@@ -12,7 +12,7 @@ export default function ContactInfo() {
     {
       icon: '📞',
       title: 'Phone',
-      info: '+39 3885885029',
+      info: '+39 3885885025',
       description: 'Call us for assistance'
     },
     {
@@ -132,7 +132,7 @@ export default function ContactInfo() {
           href="tel:+15551234567"
           className="btn-primary inline-block"
         >
-          Call Now: (388) 588-5029
+          Call Now: (388) 588-5025
         </a>
       </motion.div>
     </motion.div>
